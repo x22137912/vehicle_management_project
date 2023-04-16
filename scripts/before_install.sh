@@ -12,7 +12,7 @@ wget https://aws-codedeploy-eu-west-3.s3.amazonaws.com/latest/install
 sudo chmod +x ./install
 sudo ./install auto
 
-# Update OS & install Python3
+# Update OS & install Pythons3
 sudo yum update -y
 sudo yum install -y python3 python3-pip python3-devel
 pip3 install --user --upgrade virtualenv
